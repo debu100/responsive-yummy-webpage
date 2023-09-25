@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Header */
+
+#header {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+
+.logo {
+  float: left;
+  margin-top: 17px;
+}
+
+.logo a {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.logo a span {
+  color: #ce1212;
+}
+
+.logo a:hover {
+  border-bottom: none;
+}
+
+.menu {
+  float: right;
+  margin-top: 20px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 0 12px;
+  color: #7f7f90;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
+a:hover {
+  border-bottom: 2px solid #ce1212;
+}
+
+.last-anchor {
+  margin-left: 90px;
+}
+.last-anchor:hover {
+  border-bottom: none;
+}
+
+button {
+  background-color: rgb(206, 18, 18);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(206, 18, 18, 0.8);
+  cursor: pointer;
+}
+/* Header ends */
+
+/* Banner */
+#banner {
+  width: 100%;
+  height: 650px;
+  background-color: #eeeeee;
+  /* padding: 100px 0; */
+}
+
+.banner-text {
+  float: left;
+  width: 50%;
+}
+
+.banner-img {
+  float: right;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.banner-text h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 75px;
+  margin-top: 90px;
+}
+
+.banner-text p {
+  margin: 20px 0;
+  width: 90%;
+  line-height: 1.7;
+  color: rgb(79, 79, 90);
+}
+
+.banner-btn {
+  background-color: rgb(206, 18, 18);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding: 14px 38px;
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+/* Banner ends */
+
+/* About  */
+
+#about {
+  width: 100%;
+  margin: 70px 0;
+}
+
+#about h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+#about h2 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.about-left {
+  background-image: url("../images/about.jpg");
+}
+
+.about-container {
+  width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 50px;
+}
+
+.about-container p {
+  margin-top: 15px;
+}
+
+#italic {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.about-container img {
+  width: 100%;
+  height: auto;
+}
+
+.about-right img {
+  margin-top: 25px;
+}
+
+.about-right ul li {
+  margin: 12px 0;
+}
+
+/* about ends */
+
+/* why */
+
+#why {
+  width: 100%;
+  margin: 70px 0;
+  background-color: #eee;
+}
+
+.why-container {
+  display: grid;
+  width: 1200px;
+  margin: 50px auto;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+}
+
+.big-box {
+  background-color: #ce1212;
+  color: #fff;
+  margin: 40px 0;
+  padding: 30px 20px;
+}
+
+.big-box h2 {
+  padding: 30px 0;
+}
+
+.big-box p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.why-container button {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+
+.small-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  width: 100%;
+  margin: auto;
+}
+
+.small-box {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.small-box h3 {
+  padding: 30px 0 20px;
+}
+
+.small-box p {
+  padding: 20px 0;
+}
+
+.btn-center {
+  text-align: center;
+}
